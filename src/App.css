@@ -8,22 +8,5 @@
     grid-gap: 10px;
 }
 
-.nav {
-    grid-area: n;
-    background-color: greenyellow;
-}
 
-.header {
-    grid-area: h;
-    background-color: lightseagreen;
-}
-
-.header img{
-    width: 20px;
-}
-
-.profile {
-    grid-area: p;
-    background-color: limegreen;
-}
 
