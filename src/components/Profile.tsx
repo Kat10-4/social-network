@@ -1,9 +1,9 @@
 import React from 'react';
-import './Profile.css'
+import s from './Profile.module.css'
 
 const Profile = () => {
     return (
-        <div className="profile">
+        <div className={s.profile}>
             <div><img
                 src="https://static.vecteezy.com/system/resources/previews/006/180/174/non_2x/panther-chameleon-on-branch-free-photo.jpg"
                 alt="chameleon"/></div>
@@ -15,8 +15,8 @@ const Profile = () => {
                     New post
                 </div>
                 <div className={'posts'}>
-                    <div className={'item'}>Post 1</div>
-                    <div className={'item'}>Post 2</div>
+                    <div className={s.item}>Post 1</div>
+                    <div className={s.item}>Post 2</div>
                 </div>
             </div>
         </div>
