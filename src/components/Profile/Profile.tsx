@@ -1,10 +1,10 @@
 import React from 'react';
 import s from './Profile.module.css'
-import MyPosts from './MyPosts/MyPosts';
+import {MyPosts} from './MyPosts/MyPosts';
 
-const Profile = () => {
+export const Profile = () => {
     return (
-        <div className={s.profile}>
+        <div>
             <div>
                 <img src="https://static.vecteezy.com/system/resources/previews/006/180/174/non_2x/panther-chameleon-on-branch-free-photo.jpg"
                 alt="chameleon"/></div>
@@ -16,4 +16,3 @@ const Profile = () => {
     );
 };
 
-export default Profile;

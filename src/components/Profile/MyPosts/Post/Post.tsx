@@ -3,7 +3,7 @@ import s from './Post.module.css'
 
 
 
-const Post = (props:any) => {
+export const Post = (props:any) => {
 
     return (
         <div className={s.item}>
@@ -19,4 +19,3 @@ const Post = (props:any) => {
     )
 };
 
-export default Post;
