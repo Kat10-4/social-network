@@ -6,10 +6,10 @@ export const Navbar = () => {
     return (
         <nav className={s.nav}>
             <div className={s.item}>
-                <NavLink to={'/profile'}>Profile</NavLink>
+                <NavLink to={'/profile'} className={({ isActive }) => (isActive ? s.active : '')}>Profile</NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to={'/messages'}>Messages</NavLink>
+                <NavLink to={'/messages'} className={({ isActive }) => (isActive ? s.active : '')}>Messages</NavLink>
             </div>
             <div className={`${s.item} ${s.active}`}>
                 <NavLink to={''}>News</NavLink>
