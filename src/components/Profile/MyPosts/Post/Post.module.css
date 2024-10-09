@@ -1,0 +1,9 @@
+
+.item {
+    color: white;
+}
+
+.item img {
+    object-fit: cover;
+    height:60px
+}
