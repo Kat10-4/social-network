@@ -8,8 +8,8 @@ type DialogItemProps = {
     id: string
 }
 
-type MessageProps={
-    message:string
+type MessageProps = {
+    message: string
 }
 
 const DialogItem = ({name, id}: DialogItemProps) => {
@@ -19,11 +19,27 @@ const DialogItem = ({name, id}: DialogItemProps) => {
     </div>
 }
 
-const Message=({message}:MessageProps)=> {
+const Message = ({message}: MessageProps) => {
     return <div className={s.message}>{message}</div>
 }
 
 export const Dialogs = () => {
+
+    const dialogsData = [
+        {id: 1, name: 'Kate',},
+        {id: 2, name: 'Julia',},
+        {id: 3, name: 'Helen',},
+        {id: 4, name: 'Lidia',},
+        {id: 5, name: 'Tatiana',},
+        {id: 6, name: 'Anna',},
+    ]
+
+    const messagesData = [
+        {id: 1, message: 'Hi',},
+        {id: 2, message: 'How are you?',},
+        {id: 3, message: 'What\'s up?',},
+    ]
+
     return (
         <div className={s.dialogs}>
             <div className={s.dialogsItems}>
