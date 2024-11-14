@@ -1,16 +1,11 @@
 import React from 'react';
-import s from './Profile.module.css'
 import {MyPosts} from './MyPosts/MyPosts';
+import {ProfileInfo} from './ProfileInfo/ProfileInfo';
 
 export const Profile = () => {
     return (
         <div>
-            <div>
-                <img src="https://static.vecteezy.com/system/resources/previews/006/180/174/non_2x/panther-chameleon-on-branch-free-photo.jpg"
-                alt="chameleon" className={s.img}/></div>
-            <div>
-                ava + descript
-            </div>
+            <ProfileInfo/>
             <MyPosts/>
         </div>
     );
