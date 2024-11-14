@@ -8,11 +8,18 @@
 }
 
 .dialogsItems .item {
+    text-decoration: none;
+    color: #324b5d;
+}
 
+.dialogsItems :hover {
+    text-decoration: none;
+    color: #6fa9bd;
 }
 
 .dialogsItems .active {
-    color: gold;
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .dialogsMessages {
