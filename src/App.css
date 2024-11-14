@@ -4,8 +4,8 @@
 "h h"
 "n c";
     grid-template-rows: 60px 1fr;
-    grid-template-colums: 2fr 10fr;
-    grid-gap: 10px;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 5px;
 }
 
 .app-wrapper-content {

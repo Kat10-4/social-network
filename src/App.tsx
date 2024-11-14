@@ -8,7 +8,7 @@ import {Navigate, Route, Routes} from 'react-router-dom';
 
 export const PATH = {
     PROFILE: '/profile',
-    MESSAGE: '/messages'
+    DIALOGS: '/dialogs'
 }
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
                     <Routes>
                         <Route path='/' element={<Navigate to={PATH.PROFILE}/>}/>
                         <Route path={PATH.PROFILE} element={<Profile/>}/>
-                        <Route path={PATH.MESSAGE} element={<Dialogs/>}/>
+                        <Route path={`${PATH.DIALOGS}/*`} element={<Dialogs/>}/>
                     </Routes>
                 </div>
             </div>
